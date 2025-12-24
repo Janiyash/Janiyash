@@ -2,6 +2,10 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=700&lines=%3E_+Hey+I'm+Yash+Jani;Computer+Science +%26+Student;Frontend +Devloper+%7C+Backend Developer +%7C+Always+Learning...;Let's+Build+the+Digital+World+%F0%9F%94%91" />
 </h1>
 
+<p align="center">
+  <img src="https://media.tenor.com/GfSX-u7VGM4AAAAC/hacker.gif" width="400" />
+</p>
+
 ```bash
 > Name:         Yash Jani
 > Role:         Full Stack Developer 
