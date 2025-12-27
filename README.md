@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="https://media.tenor.com/GfSX-u7VGM4AAAAC/hacker.gif" width="400" />
+  <img src="https://giphy.com/gifs/tech-system-alliance-YYW0hHizzIOrlhimPG" width="400" />
 </p>
 
 
