@@ -8,9 +8,7 @@
 
 
 
-<p align="center">
-  <img src="[https://media.tenor.com/GfSX-u7VGM4AAAAC/hacker.gif](https://in.pinterest.com/pin/321796335880421954/)" width="400" />
-</p>
+
 
 ```bash
 > Name:         Yash Jani
