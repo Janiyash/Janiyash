@@ -36,6 +36,12 @@
 ## 📊 GitHub Stats
 
 
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=janiyash&show_icons=true&theme=radical)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=janiyash&layout=compact&theme=radical)
+
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=janiyash&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" height="150"/>
 </p
