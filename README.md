@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?lines=Hi%2C+I+am+Yash+Jani;Full+Stack+Developer+Student;MERN+%7C+PHP+%7C+React;Let%27s+Build+the+Digital+World&center=true&width=800&height=45&size=20&font=Fira+Code&color=00FF41&pause=500&duration=2500" />
+  <img src="https://readme-typing-svg.herokuapp.com?lines=Hi%2C+I+am+Yash+Jani;Full+Stack+Developer+Student;MERN+%7C+PHP+%7C+React;Let%27s+Build+the+Digital+World&center=true&width=800&height=45&size=20&font=Fira+Code&color=00FF41&pause=400" />
 </p>
+
 
 
 
