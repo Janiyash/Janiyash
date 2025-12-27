@@ -1,9 +1,9 @@
-<p align="left">
+<p align="center">
 <img src="https://readme-typing-svg.herokuapp.com?lines=Hi%2C+I+am+Yash+Jani;Full-Stack+Development+Student;MERN+%7C+PHP+%7C+React;%F0%9F%8C%90+Let%27s+Build+the+Digital+World&center=true&width=800&height=45&size=20&font=Fira+Code&color=00FF41&pause=250" />
 
 </p>
 
-<p align="right">
+<p align="center">
   <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExazY3eW0zdWt1d3NtZDJhd3QwdHhsM2xnZzczZXFueWZvOHpnd2w1aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YYW0hHizzIOrlhimPG/giphy.gif" width="200" />
 </p>
 
