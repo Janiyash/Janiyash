@@ -3,9 +3,7 @@
 
 </p>
 
-<p align="center">
-  <img src="https://giphy.com/gifs/tech-system-alliance-YYW0hHizzIOrlhimPG" width="400" />
-</p>
+
 
 
 
