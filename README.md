@@ -29,6 +29,6 @@
 > Fronted:        HTML5, CSS3, JavaScript, Tailwind CSS, Responsive Web Design
 > Backend:        PHP, Node.js, REST APIs, Authentication & Authorization
 > Database:       MySQL, CRUD Operations, SQL Queries
-> Tools:           Git, GitHub, VS Code, XAMPP, Postman, MVC Architecture
+> Tools:          Git, GitHub, VS Code, XAMPP, Postman, MVC Architecture
 
 ```
