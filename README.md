@@ -39,7 +39,7 @@
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=janiyash&show_icons=true&theme=radical)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Janiyash&layout=compact&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=janiyash&layout=compact)
 
 
 <p align="center">
