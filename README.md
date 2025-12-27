@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?ines=Hello%2C+I+am+Yash+Jani;Full+Stack+Developer+Student;MERN+%7C+PHP+%7C+React;Let%27s+Build+the+Digital+World&center=true&width=700&height=45&size=22&color=A78BA" /></p>
+  <img src="https://readme-typing-svg.herokuapp.com?lines=Hello%2C+I+am+Yash+Jani+%7C+Full+Stack+Developer+Student+%7C+MERN+%7C+PHP+%7C+React+%7C+Let%27s+Build+the+Digital+World&center=true&width=1000&height=45&size=20&font=Fira+Code&color=00FF41" />
+</p>
+
 
 <p align="center">
   <img src="https://media.tenor.com/GfSX-u7VGM4AAAAC/hacker.gif" width="400" />
