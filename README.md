@@ -1,6 +1,18 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?lines=Hello%2C+I+am+Yash+Jani+%7C+Full+Stack+Developer+Student+%7C+MERN+%7C+PHP+%7C+React+%7C+Let%27s+Build+the+Digital+World&center=true&width=1000&height=45&size=20&font=Fira+Code&color=00FF41" />
+  <img src="https://readme-typing-svg.herokuapp.com?
+  lines=Hello%2C+I+am+Yash+Jani;
+  Full+Stack+Developer+Student;
+  MERN+%7C+PHP+%7C+React;
+  Let%27s+Build+the+Digital+World
+  &center=true
+  &width=900
+  &height=45
+  &size=20
+  &font=Fira+Code
+  &color=00FF41
+  &pause=1200" />
 </p>
+
 
 
 <p align="center">
