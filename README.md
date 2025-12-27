@@ -1,15 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?
-  lines=Hello%2C+I+am+Yash+Jani;
-  Full+Stack+Developer+Student;
-  MERN+%7C+PHP+%7C+React;
-  Let%27s+Build+the+Digital+World
-  &center=true
-  &width=700
-  &height=45
-  &size=22
-  &color=A78BFA" />
-</p>
+  <img src="https://readme-typing-svg.herokuapp.com?ines=Hello%2C+I+am+Yash+Jani;Full+Stack+Developer+Student;MERN+%7C+PHP+%7C+React;Let%27s+Build+the+Digital+World&center=true&width=700&height=45&size=22&color=A78BA" /></p>
 
 <p align="center">
   <img src="https://media.tenor.com/GfSX-u7VGM4AAAAC/hacker.gif" width="400" />
