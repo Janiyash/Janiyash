@@ -1,3 +1,5 @@
+![Typing SVG](https://readme-typing-svg.herokuapp.com?lines=Full+Stack+Developer;MERN+%7C+PHP+%7C+React;Open+Source+Enthusiast)
+
 <p align="center">
   <img src="https://media.tenor.com/GfSX-u7VGM4AAAAC/hacker.gif" width="400" />
 </p>
