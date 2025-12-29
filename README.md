@@ -73,7 +73,11 @@
 </div>
 
 
+## 📊 GitHub Activity Graph
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=janiyash&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&hide_border=true)
 ## 📊 GitHub Stats
+
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=janiyash&theme=radical)
 
 
