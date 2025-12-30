@@ -1,4 +1,4 @@
-<p align="center">
+ <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?lines=Hi%2C+I+am+Yash+Jani;Full-Stack+Web+Developer;MERN+%7C+PHP+%7C+React;%F0%9F%8C%90+Let%27s+Build+the+Digital+World&center=true&width=800&height=45&size=20&font=Fira+Code&color=00FF41&pause=250" />
 </p>
 
