@@ -37,7 +37,6 @@
 ## 🌐 Connect With Me
 <p align="center">
   <a href="https://linkedin.com/in/jani-yash"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&style=for-the-badge" /></a>
-  <a href="https://instagram.com/janiiiiiiiii___"><img src="https://img.shields.io/badge/Instagram-E4405F?logo=instagram&style=for-the-badge" /></a>
   <a href="https://janiyash.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-315895?style=for-the-badge&logo=vercel"/></a>
   <a href="https://github.com/Janiyash"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" /></a>
 </p>
