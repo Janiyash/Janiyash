@@ -44,17 +44,17 @@
 ---
 
 ## 🧩 Featured Projects
+🔹 **SaaS Platform**  
+- Built a SaaS platform with secure authentication and subscription-based access 
+- Implemented API key generation with usage tracking and analytics dashboard  
+
+🔹 **KARM Services Platform**  
+- Developed a service booking system with user management and request handling
+- Integrated automated email notifications for seamless communication
+
 🔹 **Art Gallery Management System**  
-- PHP, MySQL, MVC Architecture  
-- User authentication, artwork showcase, admin controls  
-
-🔹 **Flight Management System**  
-- Booking system with login & user management  
-- Dynamic search and reservation handling  
-
-🔹 **Medical Management System**  
-- Online medicine ordering platform  
-- Secure access with chatbot-assisted queries  
+- Created a platform to showcase artworks with user enquiry functionality
+- Developed an admin panel for managing artworks and customer requests
 
 ---
 
