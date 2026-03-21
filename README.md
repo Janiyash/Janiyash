@@ -44,7 +44,7 @@
 ---
 
 ## 🧩 Featured Projects
-🔹 **SaaS Platform**  
+🔹 **Meterly SaaS Platform**  
 - Built a SaaS platform with secure authentication and subscription-based access 
 - Implemented API key generation with usage tracking and analytics dashboard  
 
