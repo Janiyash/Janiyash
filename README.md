@@ -10,7 +10,7 @@
 > Name:          Yash Jani
 > Role:          Full-Stack Web Developer
 > Status:        Learning • Building • Improving
-> Website:       https://janiyash.github.io/portfolio/
+> Website:       https://yashjani.vercel.app/
 > Email:         janiyash0911@gmail.com
 > Current Focus: Backend Development & APIs
 > Base:          India
