@@ -1,0 +1,285 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" width="1280" height="760" role="img" aria-label="Yash Jani — live full-stack dev console">
+<title>Yash Jani — Full-Stack Dev Console</title>
+<defs>
+<style type="text/css"><![CDATA[
+text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@keyframes pop{0%{opacity:0;transform:scale(0)}55%{opacity:1;transform:scale(1.3)}100%{opacity:1;transform:scale(1)}}
+@keyframes spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+@keyframes dotFlow{0%,100%{opacity:.25}50%{opacity:1}}
+@keyframes glowPulse{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes shineX{0%{transform:translateX(-220px) skewX(-15deg)}55%,100%{transform:translateX(1500px) skewX(-15deg)}}
+.ln{opacity:0;animation:fadeUp .4s ease forwards}
+.pop{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .5s cubic-bezier(.34,1.56,.64,1) forwards}
+.cur{animation:blink .9s step-end infinite}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 1s linear infinite}
+.pd{animation:pulse 1.6s ease-in-out infinite}
+.df{animation:dotFlow 1.8s ease-in-out infinite}
+.gp{animation:glowPulse 2.4s ease-in-out infinite}
+.sep{stroke:#182338;stroke-width:1}
+.sh{animation:shineX 6s ease-in-out infinite}
+]]></style>
+
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#05060c"/><stop offset="55%" stop-color="#0a0f1e"/><stop offset="100%" stop-color="#05060b"/>
+</linearGradient>
+<linearGradient id="nameg" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%"><animate attributeName="stop-color" values="#818cf8;#38bdf8;#818cf8" dur="7s" repeatCount="indefinite"/></stop>
+  <stop offset="50%"><animate attributeName="stop-color" values="#38bdf8;#f5b942;#38bdf8" dur="7s" repeatCount="indefinite"/></stop>
+  <stop offset="100%"><animate attributeName="stop-color" values="#6366f1;#818cf8;#6366f1" dur="7s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<linearGradient id="borderg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#6366f1" stop-opacity=".32"/><stop offset="50%" stop-color="#38bdf8" stop-opacity=".22"/><stop offset="100%" stop-color="#6366f1" stop-opacity=".32"/>
+</linearGradient>
+<radialGradient id="orbI"><stop offset="0%" stop-color="#6366f1" stop-opacity=".13"/><stop offset="100%" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
+<radialGradient id="orbS"><stop offset="0%" stop-color="#38bdf8" stop-opacity=".11"/><stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+<radialGradient id="orbGd"><stop offset="0%" stop-color="#f5b942" stop-opacity=".07"/><stop offset="100%" stop-color="#f5b942" stop-opacity="0"/></radialGradient>
+<linearGradient id="scanEdge" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#6366f1" stop-opacity="0"/><stop offset="20%" stop-color="#6366f1"/>
+  <stop offset="50%" stop-color="#38bdf8"/><stop offset="80%" stop-color="#f5b942"/><stop offset="100%" stop-color="#f5b942" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="scanTrail" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/><stop offset="100%" stop-color="#38bdf8" stop-opacity=".18"/>
+</linearGradient>
+<linearGradient id="shg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#fff" stop-opacity="0"/><stop offset="50%" stop-color="#fff" stop-opacity=".05"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="14" cy="14" r=".6" fill="rgba(99,102,241,.09)"/></pattern>
+<filter id="glow"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="glowBig"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="bannerBox"><rect x="1" y="1" width="1278" height="758" rx="20"/></clipPath>
+<clipPath id="cc"><rect x="1" y="1" width="1278" height="758" rx="20"/></clipPath>
+
+<!-- role cycler reveal windows (reused pattern, 24s loop) -->
+<clipPath id="r1"><rect x="330" y="66" width="0" height="24"><animate attributeName="width" values="0;0;300;300;0;0" keyTimes="0;.01;.07;.24;.27;1" dur="20s" repeatCount="indefinite" begin="1.6s"/></rect></clipPath>
+<clipPath id="r2"><rect x="330" y="66" width="0" height="24"><animate attributeName="width" values="0;0;300;300;0;0" keyTimes="0;.29;.35;.49;.52;1" dur="20s" repeatCount="indefinite" begin="1.6s"/></rect></clipPath>
+<clipPath id="r3"><rect x="330" y="66" width="0" height="24"><animate attributeName="width" values="0;0;300;300;0;0" keyTimes="0;.54;.6;.74;.77;1" dur="20s" repeatCount="indefinite" begin="1.6s"/></rect></clipPath>
+<clipPath id="r4"><rect x="330" y="66" width="0" height="24"><animate attributeName="width" values="0;0;300;300;0;0" keyTimes="0;.79;.85;.99;1;1" dur="20s" repeatCount="indefinite" begin="1.6s"/></rect></clipPath>
+
+<!-- pipeline status ticker reveal windows (16s loop) -->
+<clipPath id="s1"><rect x="1006" y="710" width="0" height="18"><animate attributeName="width" values="0;0;160;160;0;0" keyTimes="0;.01;.09;.24;.26;1" dur="16s" repeatCount="indefinite" begin="6.4s"/></rect></clipPath>
+<clipPath id="s2"><rect x="1006" y="710" width="0" height="18"><animate attributeName="width" values="0;0;160;160;0;0" keyTimes="0;.26;.34;.49;.51;1" dur="16s" repeatCount="indefinite" begin="6.4s"/></rect></clipPath>
+<clipPath id="s3"><rect x="1006" y="710" width="0" height="18"><animate attributeName="width" values="0;0;160;160;0;0" keyTimes="0;.51;.59;.74;.76;1" dur="16s" repeatCount="indefinite" begin="6.4s"/></rect></clipPath>
+<clipPath id="s4"><rect x="1006" y="710" width="0" height="18"><animate attributeName="width" values="0;0;160;160;0;0" keyTimes="0;.76;.84;.99;1;1" dur="16s" repeatCount="indefinite" begin="6.4s"/></rect></clipPath>
+</defs>
+
+<!-- ============ BACKGROUND ============ -->
+<rect width="1280" height="760" rx="20" fill="url(#bg)"/>
+<rect width="1280" height="760" rx="20" fill="url(#dots)"/>
+<circle cx="180" cy="180" r="240" fill="url(#orbI)"><animate attributeName="r" values="240;270;240" dur="6s" repeatCount="indefinite"/></circle>
+<circle cx="1080" cy="560" r="300" fill="url(#orbS)"><animate attributeName="r" values="300;330;300" dur="7s" repeatCount="indefinite"/></circle>
+<circle cx="700" cy="90" r="180" fill="url(#orbGd)"><animate attributeName="r" values="180;205;180" dur="5.5s" repeatCount="indefinite"/></circle>
+<rect x="1" y="1" width="1278" height="758" rx="20" fill="none" stroke="url(#borderg)" stroke-width="1.5"/>
+
+<!-- ============ HEADER / CONSOLE CHROME ============ -->
+<rect x="1" y="1" width="1278" height="52" rx="20" fill="#0b1120"/>
+<rect x="1" y="33" width="1278" height="20" fill="#0b1120"/>
+<line x1="1" y1="53" x2="1279" y2="53" class="sep"/>
+<circle cx="26" cy="27" r="6" fill="#ef4444" opacity=".85"/>
+<circle cx="46" cy="27" r="6" fill="#f5b942" opacity=".85"/>
+<circle cx="66" cy="27" r="6" fill="#22c55e" opacity=".85"/>
+<text x="640" y="32" text-anchor="middle" font-size="13" fill="#64748b">yash@fullstack&#8201;:&#8201;~/dev-console</text>
+<g class="pd">
+  <circle cx="1204" cy="27" r="4" fill="#22c55e"/>
+</g>
+<text x="1216" y="31" font-size="11.5" fill="#94a3b8" font-weight="bold">LIVE</text>
+
+<!-- ============ NAME + ROLE CYCLER ============ -->
+<text class="ln" x="24" y="88" font-size="26" font-weight="bold" fill="url(#nameg)" filter="url(#glow)" style="animation-delay:.15s">Yash Jani</text>
+<text class="ln" x="24" y="66" font-size="11.5" fill="#64748b" style="animation-delay:.05s">&gt; whoami</text>
+<g fill="#7dd3fc" font-size="15">
+  <g clip-path="url(#r1)"><text x="330" y="84">Full-Stack Web Developer</text></g>
+  <g clip-path="url(#r2)"><text x="330" y="84">React &#183; Node.js &#183; Firebase</text></g>
+  <g clip-path="url(#r3)"><text x="330" y="84">Shipping production-ready apps</text></g>
+  <g clip-path="url(#r4)"><text x="330" y="84">Open to internships &amp; full-time roles</text></g>
+</g>
+<rect x="330" y="70" width="9" height="16" fill="#38bdf8" class="cur" style="animation-delay:1.6s"/>
+
+<!-- vertical column separators -->
+<line x1="264" y1="112" x2="264" y2="692" class="sep"/>
+<line x1="768" y1="112" x2="768" y2="692" class="sep"/>
+<line x1="1" y1="692" x2="1279" y2="692" class="sep"/>
+
+<!-- ============ COLUMN 1 : FILE EXPLORER ============ -->
+<text class="ln" x="24" y="132" font-size="11" fill="#64748b" letter-spacing="1.5" style="animation-delay:2.0s">EXPLORER</text>
+
+<g font-size="12.5" fill="#cbd5e1">
+  <text class="ln" x="24" y="160" style="animation-delay:2.15s">&#128193; src</text>
+  <text class="ln" x="42" y="182" style="animation-delay:2.3s"><tspan fill="#94a3b8">&#128196; </tspan>App.jsx</text>
+  <text class="ln" x="42" y="204" style="animation-delay:2.45s"><tspan fill="#94a3b8">&#128196; </tspan>server.js</text>
+  <text class="ln" x="42" y="226" style="animation-delay:2.6s">&#128193; routes</text>
+  <text class="ln" x="60" y="248" style="animation-delay:2.75s"><tspan fill="#94a3b8">&#128196; </tspan>auth.js</text>
+  <text class="ln" x="60" y="270" style="animation-delay:2.9s"><tspan fill="#94a3b8">&#128196; </tspan>api.js</text>
+  <text class="ln" x="24" y="296" style="animation-delay:3.05s">&#128193; tests</text>
+  <text class="ln" x="42" y="318" style="animation-delay:3.2s"><tspan fill="#94a3b8">&#128196; </tspan>auth.test.js</text>
+  <text class="ln" x="42" y="340" style="animation-delay:3.35s"><tspan fill="#94a3b8">&#128196; </tspan>api.test.js</text>
+  <text class="ln" x="24" y="366" style="animation-delay:3.5s"><tspan fill="#94a3b8">&#128196; </tspan>firebase.config.js</text>
+  <text class="ln" x="24" y="388" style="animation-delay:3.65s"><tspan fill="#94a3b8">&#128196; </tspan>package.json</text>
+  <text class="ln" x="24" y="410" style="animation-delay:3.8s"><tspan fill="#94a3b8">&#128196; </tspan>.env</text>
+</g>
+
+<!-- git commit timeline -->
+<text class="ln" x="24" y="452" font-size="11" fill="#64748b" letter-spacing="1.5" style="animation-delay:4s">COMMIT HISTORY</text>
+<g transform="translate(24,470)">
+  <line x1="4" y1="0" x2="4" y2="192" stroke="#182338" stroke-width="2"/>
+  <g font-size="11" fill="#94a3b8">
+    <g class="df" style="animation-delay:0s"><circle cx="4" cy="0" r="4" fill="#6366f1"/><text x="18" y="4">feat: auth OTP flow</text></g>
+    <g class="df" style="animation-delay:.2s"><circle cx="4" cy="32" r="4" fill="#38bdf8"/><text x="18" y="36">fix: rent cycle engine</text></g>
+    <g class="df" style="animation-delay:.4s"><circle cx="4" cy="64" r="4" fill="#f5b942"/><text x="18" y="68">feat: firebase auth</text></g>
+    <g class="df" style="animation-delay:.6s"><circle cx="4" cy="96" r="4" fill="#a78bfa"/><text x="18" y="100">chore: API key usage</text></g>
+    <g class="df" style="animation-delay:.8s"><circle cx="4" cy="128" r="4" fill="#22c55e"/><text x="18" y="132">test: 42 passing</text></g>
+    <g class="df" style="animation-delay:1s"><circle cx="4" cy="160" r="4" fill="#818cf8"/><text x="18" y="164">deploy: v2.3.0 live</text></g>
+  </g>
+</g>
+
+<!-- ============ COLUMN 2 : CODE EDITOR ============ -->
+<rect x="264" y="112" width="504" height="34" fill="#0b1120"/>
+<line x1="264" y1="146" x2="768" y2="146" class="sep"/>
+<g font-size="11.5">
+  <rect x="284" y="120" width="88" height="24" rx="6" fill="#111a30"/>
+  <text x="328" y="136" text-anchor="middle" fill="#7dd3fc">App.jsx</text>
+  <rect x="284" y="120" width="88" height="2" fill="#38bdf8"/>
+  <text x="392" y="136" fill="#475569">server.js</text>
+  <text x="466" y="136" fill="#475569">auth.js</text>
+</g>
+
+<g font-size="13" font-family="SFMono-Regular,Consolas,monospace">
+  <text class="ln" x="284" y="176" style="animation-delay:4.1s"><tspan fill="#64748b">1</tspan><tspan x="308" fill="#c084fc"> import</tspan><tspan fill="#e2e8f0"> { initializeApp } </tspan><tspan fill="#c084fc">from</tspan><tspan fill="#a5d6ff"> 'firebase/app'</tspan><tspan fill="#e2e8f0">;</tspan></text>
+  <text class="ln" x="284" y="200" style="animation-delay:4.3s"><tspan fill="#64748b">2</tspan><tspan x="308" fill="#c084fc"> import</tspan><tspan fill="#e2e8f0"> express </tspan><tspan fill="#c084fc">from</tspan><tspan fill="#a5d6ff"> 'express'</tspan><tspan fill="#e2e8f0">;</tspan></text>
+  <text class="ln" x="284" y="224" style="animation-delay:4.5s"> </text>
+  <text class="ln" x="284" y="248" style="animation-delay:4.6s"><tspan fill="#64748b">4</tspan><tspan x="308" fill="#c084fc"> const</tspan><tspan fill="#e2e8f0"> app = </tspan><tspan fill="#38bdf8">express</tspan><tspan fill="#e2e8f0">();</tspan></text>
+  <text class="ln" x="284" y="272" style="animation-delay:4.8s"><tspan fill="#64748b">5</tspan><tspan x="308" fill="#e2e8f0"> app.</tspan><tspan fill="#38bdf8">use</tspan><tspan fill="#e2e8f0">(</tspan><tspan fill="#38bdf8">cors</tspan><tspan fill="#e2e8f0">());</tspan></text>
+  <text class="ln" x="284" y="312" style="animation-delay:5.0s"><tspan fill="#64748b">7</tspan><tspan x="308" fill="#e2e8f0"> app.</tspan><tspan fill="#38bdf8">post</tspan><tspan fill="#e2e8f0">(</tspan><tspan fill="#a5d6ff">'/api/login'</tspan><tspan fill="#e2e8f0">, </tspan><tspan fill="#c084fc">async</tspan><tspan fill="#e2e8f0"> (req, res) =&gt; {</tspan></text>
+  <text class="ln" x="284" y="336" style="animation-delay:5.2s"><tspan fill="#64748b">8</tspan><tspan x="308" fill="#c084fc">   const</tspan><tspan fill="#e2e8f0"> user = </tspan><tspan fill="#c084fc">await</tspan><tspan fill="#e2e8f0"> auth.</tspan><tspan fill="#38bdf8">verify</tspan><tspan fill="#e2e8f0">(req.body.token);</tspan></text>
+  <text class="ln" x="284" y="360" style="animation-delay:5.4s"><tspan fill="#64748b">9</tspan><tspan x="308" fill="#c084fc">   return</tspan><tspan fill="#e2e8f0"> res.</tspan><tspan fill="#38bdf8">json</tspan><tspan fill="#e2e8f0">({ status: </tspan><tspan fill="#a5d6ff">'ok'</tspan><tspan fill="#e2e8f0">, user });</tspan></text>
+  <text class="ln" x="284" y="384" style="animation-delay:5.6s"><tspan fill="#64748b">10</tspan><tspan x="316" fill="#e2e8f0"> });</tspan></text>
+  <text class="ln" x="284" y="424" style="animation-delay:5.8s"><tspan fill="#64748b">12</tspan><tspan x="316" fill="#e2e8f0"> app.</tspan><tspan fill="#38bdf8">listen</tspan><tspan fill="#e2e8f0">(</tspan><tspan fill="#f5b942">5000</tspan><tspan fill="#e2e8f0">, () =&gt; </tspan><tspan fill="#38bdf8">console</tspan><tspan fill="#e2e8f0">.</tspan><tspan fill="#38bdf8">log</tspan><tspan fill="#e2e8f0">(</tspan><tspan fill="#a5d6ff">'server ready \u2713'</tspan><tspan fill="#e2e8f0">));</tspan></text>
+  <rect x="308" y="414" width="8" height="16" fill="#38bdf8" class="cur" style="animation-delay:6s"/>
+</g>
+
+<!-- coverage bars -->
+<line x1="284" y1="452" x2="748" y2="452" class="sep"/>
+<text class="ln" x="284" y="476" font-size="11" fill="#64748b" letter-spacing="1.5" style="animation-delay:6.1s">TEST COVERAGE</text>
+<g font-size="11.5" fill="#94a3b8">
+  <text class="ln" x="284" y="500" style="animation-delay:6.25s">auth.js</text>
+  <rect x="284" y="508" width="380" height="6" rx="3" fill="#182338"/>
+  <rect x="284" y="508" width="0" height="6" rx="3" fill="#22c55e"><animate attributeName="width" from="0" to="368" dur="1s" begin="6.3s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/></rect>
+  <text class="ln" x="672" y="513" text-anchor="end" fill="#22c55e" font-weight="bold" style="animation-delay:7.2s">97%</text>
+
+  <text class="ln" x="284" y="536" style="animation-delay:6.45s">api.js</text>
+  <rect x="284" y="544" width="380" height="6" rx="3" fill="#182338"/>
+  <rect x="284" y="544" width="0" height="6" rx="3" fill="#38bdf8"><animate attributeName="width" from="0" to="330" dur="1s" begin="6.5s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/></rect>
+  <text class="ln" x="672" y="549" text-anchor="end" fill="#38bdf8" font-weight="bold" style="animation-delay:7.4s">87%</text>
+
+  <text class="ln" x="284" y="572" style="animation-delay:6.65s">firebase.config.js</text>
+  <rect x="284" y="580" width="380" height="6" rx="3" fill="#182338"/>
+  <rect x="284" y="580" width="0" height="6" rx="3" fill="#f5b942"><animate attributeName="width" from="0" to="342" dur="1s" begin="6.7s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/></rect>
+  <text class="ln" x="672" y="585" text-anchor="end" fill="#f5b942" font-weight="bold" style="animation-delay:7.6s">90%</text>
+</g>
+
+<!-- currently building strip -->
+<g class="ln" style="animation-delay:7.8s">
+  <rect x="284" y="612" width="464" height="58" rx="10" fill="#0b1120" stroke="#1c2740" stroke-width="1"/>
+  <text x="304" y="638" font-size="14">&#128736;&#65039;</text>
+  <text x="328" y="634" font-size="12" fill="#f5b942" font-weight="bold">Currently Building</text>
+  <text x="328" y="656" font-size="11.5" fill="#cbd5e1">Meterly &#8212; SaaS billing platform, API-key usage tracking</text>
+</g>
+
+<!-- ============ COLUMN 3 : TERMINAL / CI PIPELINE ============ -->
+<rect x="768" y="112" width="512" height="34" fill="#0b1120"/>
+<line x1="768" y1="146" x2="1280" y2="146" class="sep"/>
+<text x="788" y="134" font-size="11.5" fill="#94a3b8">bash &#8212; pipeline</text>
+
+<g font-size="12.5" font-family="SFMono-Regular,Consolas,monospace">
+  <!-- build -->
+  <text class="ln" x="788" y="176" style="animation-delay:2.0s"><tspan fill="#6366f1">$ </tspan><tspan fill="#e2e8f0">npm run build</tspan></text>
+  <g class="pop" style="animation-delay:2.9s"><text x="788" y="200" fill="#22c55e">&#10003; Compiled successfully in 1.8s</text></g>
+
+  <!-- tests -->
+  <text class="ln" x="788" y="232" style="animation-delay:3.2s"><tspan fill="#6366f1">$ </tspan><tspan fill="#e2e8f0">npm test</tspan></text>
+  <g class="pop" style="animation-delay:3.7s"><text x="800" y="254" fill="#22c55e" font-size="11.5">&#10003; auth.test.js</text></g>
+  <g class="pop" style="animation-delay:3.95s"><text x="800" y="272" fill="#22c55e" font-size="11.5">&#10003; api.test.js</text></g>
+  <g class="pop" style="animation-delay:4.2s"><text x="800" y="290" fill="#22c55e" font-size="11.5">&#10003; firebase.test.js</text></g>
+  <g class="pop" style="animation-delay:4.45s"><text x="788" y="312" fill="#94a3b8" font-size="11.5">42 passed &#183; 0 failed &#183; 1.4s</text></g>
+
+  <!-- scan -->
+  <text class="ln" x="788" y="344" style="animation-delay:4.7s"><tspan fill="#6366f1">$ </tspan><tspan fill="#e2e8f0">npm run scan</tspan><tspan fill="#64748b"> --security</tspan></text>
+  <g class="ln" style="animation-delay:5.0s">
+    <text x="788" y="366" fill="#f5b942" font-size="11.5">scanning dependencies&#8230;</text>
+    <rect x="788" y="376" width="380" height="6" rx="3" fill="#182338"/>
+    <rect x="788" y="376" width="0" height="6" rx="3" fill="#f5b942">
+      <animate attributeName="width" from="0" to="380" dur="1.4s" begin="5.1s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+    </rect>
+    <g clip-path="url(#cc)">
+      <rect x="788" y="376" width="30" height="6" fill="#fff" opacity=".35">
+        <animate attributeName="x" from="788" to="1168" dur="1.4s" begin="5.1s" fill="freeze"/>
+      </rect>
+    </g>
+  </g>
+  <g class="pop" style="animation-delay:6.6s"><text x="788" y="402" fill="#22c55e" font-size="11.5">&#10003; 0 vulnerabilities found</text></g>
+
+  <!-- deploy -->
+  <text class="ln" x="788" y="434" style="animation-delay:6.9s"><tspan fill="#6366f1">$ </tspan><tspan fill="#e2e8f0">vercel --prod</tspan></text>
+  <g class="ln" style="animation-delay:7.2s">
+    <text x="788" y="456" fill="#38bdf8" font-size="11.5">deploying to production&#8230;</text>
+    <rect x="788" y="466" width="380" height="6" rx="3" fill="#182338"/>
+    <rect x="788" y="466" width="0" height="6" rx="3" fill="url(#nameg)">
+      <animate attributeName="width" from="0" to="380" dur="1.6s" begin="7.3s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+    </rect>
+  </g>
+  <g class="pop" style="animation-delay:9.0s"><text x="788" y="492" fill="#22c55e" font-size="13" font-weight="bold">&#128640; Deployed &#8594; production is LIVE</text></g>
+</g>
+
+<!-- spinner + scanning radar badge -->
+<g transform="translate(1224,176)" class="spin" style="animation-delay:0s">
+  <circle r="9" fill="none" stroke="#182338" stroke-width="2.5"/>
+  <path d="M 0 -9 A 9 9 0 0 1 9 0" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<!-- focus stack pills -->
+<line x1="788" y1="520" x2="1252" y2="520" class="sep"/>
+<text class="ln" x="788" y="546" font-size="11" fill="#64748b" letter-spacing="1.5" style="animation-delay:9.2s">TECH STACK</text>
+<g class="ln" style="animation-delay:9.3s"><rect x="788" y="558" width="88" height="26" rx="13" fill="rgba(99,102,241,.14)" stroke="#6366f1" stroke-width="1"/><text x="832" y="575" text-anchor="middle" font-size="11.5" fill="#a5b4fc" font-weight="bold">React</text></g>
+<g class="ln" style="animation-delay:9.4s"><rect x="884" y="558" width="94" height="26" rx="13" fill="rgba(56,189,248,.13)" stroke="#38bdf8" stroke-width="1"/><text x="931" y="575" text-anchor="middle" font-size="11.5" fill="#7dd3fc" font-weight="bold">Node.js</text></g>
+<g class="ln" style="animation-delay:9.5s"><rect x="986" y="558" width="98" height="26" rx="13" fill="rgba(245,185,66,.13)" stroke="#f5b942" stroke-width="1"/><text x="1035" y="575" text-anchor="middle" font-size="11.5" fill="#fbbf24" font-weight="bold">Firebase</text></g>
+<g class="ln" style="animation-delay:9.6s"><rect x="1092" y="558" width="86" height="26" rx="13" fill="rgba(167,139,250,.14)" stroke="#a78bfa" stroke-width="1"/><text x="1135" y="575" text-anchor="middle" font-size="11.5" fill="#c4b5fd" font-weight="bold">MySQL</text></g>
+<g class="ln" style="animation-delay:9.7s"><rect x="788" y="592" width="112" height="26" rx="13" fill="rgba(129,140,248,.14)" stroke="#818cf8" stroke-width="1"/><text x="844" y="609" text-anchor="middle" font-size="11.5" fill="#c7d2fe" font-weight="bold">TypeScript</text></g>
+<g class="ln" style="animation-delay:9.8s"><rect x="908" y="592" width="90" height="26" rx="13" fill="rgba(56,189,248,.13)" stroke="#38bdf8" stroke-width="1"/><text x="953" y="609" text-anchor="middle" font-size="11.5" fill="#7dd3fc" font-weight="bold">Tailwind</text></g>
+<g class="ln" style="animation-delay:9.9s"><rect x="1006" y="592" width="70" height="26" rx="13" fill="rgba(245,185,66,.13)" stroke="#f5b942" stroke-width="1"/><text x="1041" y="609" text-anchor="middle" font-size="11.5" fill="#fbbf24" font-weight="bold">SQL</text></g>
+
+<!-- deploy status card -->
+<g class="ln" style="animation-delay:10.0s">
+  <rect x="788" y="632" width="464" height="46" rx="10" fill="#0b1120" stroke="#1c2740" stroke-width="1"/>
+  <circle cx="812" cy="655" r="4" fill="#22c55e" class="gp"/>
+  <text x="828" y="660" font-size="12" fill="#e2e8f0" font-weight="bold">production</text>
+  <text x="1150" y="660" text-anchor="end" font-size="11.5" fill="#22c55e">&#9679; all systems operational</text>
+</g>
+
+<!-- ============ FOOTER STATUS TICKER ============ -->
+<text x="24" y="726" font-size="11.5" fill="#64748b">&gt; pipeline status</text>
+<circle cx="150" cy="722" r="5" fill="#38bdf8" class="pd" filter="url(#glow)"/>
+<g fill="#7dd3fc" font-size="13" font-weight="bold">
+  <g clip-path="url(#s1)"><text x="166" y="726">BUILDING</text></g>
+  <g clip-path="url(#s2)"><text x="166" y="726">TESTING</text></g>
+  <g clip-path="url(#s3)"><text x="166" y="726">SCANNING</text></g>
+  <g clip-path="url(#s4)"><text x="166" y="726">DEPLOYED</text></g>
+</g>
+
+<g font-size="12" fill="#94a3b8">
+  <text x="440" y="726">&#128231; janiyash0911@gmail.com</text>
+  <text x="700" y="726">&#128279; github.com/Janiyash</text>
+  <text x="940" y="726">in jani-yash</text>
+</g>
+<text x="1256" y="726" text-anchor="end" font-size="12" fill="#475569">&#8220;<tspan fill="#7dd3fc">Consistency beats intensity.</tspan>&#8221;</text>
+
+<!-- ============ CONTINUOUS SCAN SWEEP ============ -->
+<g clip-path="url(#bannerBox)">
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,-40;0,800" dur="4.5s" begin="0s" repeatCount="indefinite"/>
+    <rect x="0" y="-34" width="1280" height="34" fill="url(#scanTrail)"/>
+    <rect x="0" y="0" width="1280" height="2.2" fill="url(#scanEdge)" opacity=".55" filter="url(#glow)"/>
+  </g>
+</g>
+<g clip-path="url(#cc)"><rect class="sh" x="0" y="0" width="160" height="760" fill="url(#shg)"/></g>
+</svg>
