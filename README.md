@@ -106,7 +106,7 @@
 ---
 ## 📊 GitHub Stats
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=janiyash&theme=radical)
+![GitHub Streak]([https://github-readme-streak-stats.herokuapp.com/?user=janiyash&theme=radical](https://streak-stats.demolab.com/?user=janiyash&theme=radical&timezone=Asia%2FKolkata))
 
 ---
 ⭐ *Consistency beats intensity. Keep building.*
