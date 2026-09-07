@@ -14,6 +14,8 @@
   <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExazY3eW0zdWt1d3NtZDJhd3QwdHhsM2xnZzczZXFueWZvOHpnd2w1aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YYW0hHizzIOrlhimPG/giphy.gif" width="180" />
 </p>
 
+</div>
+
 ```bash
 > Name:          Yash Jani
 > Role:          Full-Stack Web Developer
@@ -114,16 +116,7 @@
 ---
 ## 📊 GitHub Stats
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=janiyash&theme=radical)
+![GitHub Streak](https://streak-stats.demolab.com/?user=janiyash&theme=radical)
 
 ---
 ⭐ *Consistency beats intensity. Keep building.*
-
-
-
-
-
-
-
-
-this this streak is not showing please solve this and give me corrected solution for this 
