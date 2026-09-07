@@ -6,187 +6,124 @@
          --cols 100 --equalize --detail 0.5 --color --reveal -->
 <img src="assets/portrait.svg" width="300" alt="Yash Jani, rendered as a dot matrix">
 
-<br>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?lines=Hi%2C+I+am+Yash+Jani;Full-Stack+Web+Developer;MERN+%7C+PHP+%7C+React;%F0%9F%8C%90+Let%27s+Build+the+Digital+World&center=true&width=800&height=45&size=20&font=Fira+Code&color=00FF41&pause=250" />
+</p>
 
-<!-- NAME / TAGLINE - animated typing -->
-<a href="https://github.com/Janiyash">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=39D353&center=true&vCenter=true&width=560&lines=Yash+Jani;Full-Stack+Web+Developer;MERN+%7C+PHP+%7C+React;Learning+%C2%B7+Building+%C2%B7+Improving" alt="typing banner">
-</a>
+<p align="center">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExazY3eW0zdWt1d3NtZDJhd3QwdHhsM2xnZzczZXFueWZvOHpnd2w1aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YYW0hHizzIOrlhimPG/giphy.gif" width="180" />
+</p>
 
-<br>
-
-<!-- SOCIALS -->
-<a href="https://linkedin.com/in/jani-yash"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="mailto:janiyash0911@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-<a href="https://yashjani.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
-<a href="https://github.com/Janiyash"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-
-<img src="https://komarev.com/ghpvc/?username=Janiyash&style=flat&color=39d353&label=profile+views" alt="profile views">
-
-</div>
-
----
-
-## `~/` whoami
-
-```console
-$ cat about.txt
+```bash
+> Name:          Yash Jani
+> Role:          Full-Stack Web Developer
+> Status:        Learning • Building • Improving
+> Website:       https://yashjani.vercel.app/
+> Email:         janiyash0911@gmail.com
+> Current Focus: Backend Development & APIs
+> Base:          India
 ```
 
-Hi, I'm **Yash Jani**. I build full-stack web apps that sit somewhere between MERN and PHP,
-with a growing focus on backend development and clean, well-structured APIs.
+---
 
-- Currently focused on **Backend Development & APIs**
-- Building **SaaS tools, service platforms, and admin systems**
-- Portfolio: **[yashjani.vercel.app](https://yashjani.vercel.app/)**
-- Open to **remote internships and full-stack / backend developer roles**
+## 🚀 What I Do
+- Build full-stack web applications using **MERN Stack** and **PHP**
+- Design and develop **RESTful APIs**
+- Implement **authentication & authorization**
+- Work with **MySQL databases** using efficient **CRUD operations**
+- Focus on clean code, scalability, and real-world problem solving
 
-<br>
+---
 
-<div align="center">
+## 💼 Open To
+- Remote Internship Opportunities  
+- Full-Stack Developer Intern Roles  
+- Backend / Web Development Roles  
 
-## `~/` toolbox
+---
 
-<img src="https://skillicons.dev/icons?i=js,php,nodejs,mysql,html,css,tailwind,py,java,c,git,github,vscode&perline=13" alt="tech stack">
+## 🌐 Connect With Me
+<p align="center">
+  <a href="https://linkedin.com/in/jani-yash"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&style=for-the-badge" /></a>
+  <a href="https://yashjani.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-315895?style=for-the-badge&logo=vercel"/></a>
+  <a href="https://github.com/Janiyash"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" /></a>
+</p>
 
+---
+
+## 🧩 Featured Projects
+🔹 **Meterly SaaS Platform**  
+- Built a SaaS platform with secure authentication and subscription-based access 
+- Implemented API key generation with usage tracking and analytics dashboard  
+
+🔹 **KARM Services Platform**  
+- Developed a service booking system with user management and request handling
+- Integrated automated email notifications for seamless communication
+
+🔹 **Art Gallery Management System**  
+- Created a platform to showcase artworks with user enquiry functionality
+- Developed an admin panel for managing artworks and customer requests
+
+---
+
+## 🧰 Tech Stack & Tools
+```bash
+> Languages:  Python, Java, C, JavaScript
+> Frontend:   HTML5, CSS3, JavaScript, Tailwind CSS, Responsive Design
+> Backend:    PHP, Node.js, REST APIs, Authentication & Authorization
+> Database:   MySQL, SQL Statements, CRUD Operations
+> Tools:      Git, GitHub, VS Code, XAMPP, Postman, MVC Architecture
+```
+
+---
+
+## 🔧 Technologies
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="37" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="37" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="37" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="37" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="37" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="37" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" height="37" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="37" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="37" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="37" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="37" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="37" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="37" />
 </div>
 
 ---
 
-<div align="center">
-
-## `~/` skill radar
-
-<table>
-<tr>
-<td width="50%" align="center" valign="middle">
-
-<!-- Self-rated radar - edit assets/skills.json, the workflow redraws it -->
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/radar-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/radar-light.svg">
-  <img src="assets/radar-dark.svg" width="400" alt="skill radar chart">
-</picture>
-
-</td>
-<td width="50%" align="center" valign="middle">
-
-<!-- Live radar built from real language byte counts across your repos -->
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/radar-langs-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/radar-langs-light.svg">
-  <img src="assets/radar-langs-dark.svg" width="400" alt="language radar chart">
-</picture>
-
-</td>
-</tr>
-</table>
-
-</div>
+## 📊 GitHub Activity
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=janiyash&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&hide_border=true)
 
 ---
+## 📊 GitHub Stats
 
-<div align="center">
-
-## `~/` contribution calendar
-
-<!-- 3D isometric calendar, regenerated every 6h by .github/workflows/metrics.yml -->
-<img src="assets/metrics.isocalendar.svg" width="90%" alt="3D isometric contribution calendar">
-
-<br><br>
-
-<!-- Snake eats the contribution graph - .github/workflows/snake.yml -->
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/Janiyash/Janiyash/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Janiyash/Janiyash/output/snake.svg">
-  <img src="https://raw.githubusercontent.com/Janiyash/Janiyash/output/snake.svg" width="100%" alt="snake eating the contribution graph">
-</picture>
-
-</div>
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=janiyash&theme=radical)
 
 ---
+⭐ *Consistency beats intensity. Keep building.*
 
-<div align="center">
 
-## `~/` the numbers
 
-<!-- Generated by scripts/cards.py into this repo. Deliberately NOT
-     github-readme-stats / streak-stats / github-profile-trophy: those are
-     shared public instances that go down and take the whole section with them. -->
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-stats-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-stats-light.svg">
-  <img src="assets/card-stats-dark.svg" width="480" alt="GitHub statistics">
-</picture>
 
-<br>
 
-<img src="assets/metrics.languages.svg" height="165" alt="most used languages">
 
-<br><br>
 
-<img src="assets/metrics.achievements.svg" width="90%" alt="achievements">
 
-</div>
-
----
-
-<div align="center">
-
-## `~/` selected work
-
-<!-- Cards generated by scripts/cards.py from assets/projects.json.
-     Stars, forks and language are pulled live from the API on every run. -->
-<table>
-<tr>
-<td width="50%">
-  <a href="https://github.com/Janiyash/meterly-saas">
-    <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="assets/card-meterly-saas-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="assets/card-meterly-saas-light.svg">
-      <img src="assets/card-meterly-saas-dark.svg" width="420" alt="meterly-saas">
-    </picture>
-  </a>
-</td>
-<td width="50%">
-  <a href="https://github.com/Janiyash/karma-services">
-    <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="assets/card-karma-services-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="assets/card-karma-services-light.svg">
-      <img src="assets/card-karma-services-dark.svg" width="420" alt="karma-services">
-    </picture>
-  </a>
-</td>
-</tr>
-<tr>
-<td width="50%" colspan="2" align="center">
-  <a href="https://github.com/Janiyash/Art-gallery-Management-System-">
-    <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="assets/card-Art-gallery-Management-System--dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="assets/card-Art-gallery-Management-System--light.svg">
-      <img src="assets/card-Art-gallery-Management-System--dark.svg" width="420" alt="Art Gallery Management System">
-    </picture>
-  </a>
-</td>
-</tr>
-</table>
-
-<sub>
-
-| project | stack |
-|---|---|
-| **[meterly-saas](https://github.com/Janiyash/meterly-saas)** | `TypeScript` |
-| **[karma-services](https://github.com/Janiyash/karma-services)** | `JavaScript` |
-| **[Art-gallery-Management-System-](https://github.com/Janiyash/Art-gallery-Management-System-)** | `PHP` |
-
-</sub>
-
-</div>
-
----
-
-<div align="center">
-
-<sub>`consistency beats intensity. keep building.`</sub>
-
-</div>
+this this streak is not showing please solve this and give me corrected solution for this 
