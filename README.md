@@ -143,6 +143,10 @@
   <img src="assets/card-stats-dark.svg" width="480" alt="GitHub statistics">
 </picture>
 
+<br><br>
+
+<img src="assets/metrics.achievements.svg" width="90%" alt="achievements">
+
 </div>
 
 ---
