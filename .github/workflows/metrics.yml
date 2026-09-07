@@ -15,6 +15,9 @@ jobs:
   metrics:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       # ------------------------------------------------------------------ #
       # The 3D isometric contribution calendar (the one from the inspo)
       # ------------------------------------------------------------------ #
@@ -64,6 +67,28 @@ jobs:
           plugin_languages_indepth: no
           plugin_languages_sections: most-used
 
-      # Achievements plugin removed — lowlighter/metrics' achievements plugin
-      # scrapes GitHub's own achievements page and breaks whenever that page's
-      # layout changes upstream (long-standing, unfixable-from-config issue).
+      # ------------------------------------------------------------------ #
+      # Self-hosted achievements badge. Replaces lowlighter/metrics' plugin,
+      # which scrapes GitHub's achievements page via a headless browser and
+      # has been broken for many accounts since 2023 with no upstream fix
+      # (the project has had no real release since ~v3.34/2023). This one
+      # just reads the REST/GraphQL APIs directly, same as scripts/cards.py.
+      # ------------------------------------------------------------------ #
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Achievements (self-hosted)
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: python scripts/achievements.py --user Janiyash -o assets/achievements
+
+      - name: Commit achievements badge if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/achievements-*.svg
+          git diff --staged --quiet || git commit -m "chore: refresh achievements badge"
+          git pull --rebase origin main
+          git push
