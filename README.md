@@ -160,15 +160,6 @@
 <!-- 3D isometric calendar — regenerated every 6h by .github/workflows/metrics.yml -->
 <img src="assets/metrics.isocalendar.svg" width="90%" alt="3D isometric contribution calendar">
 
-<br><br>
-
-<!-- Snake eats the contribution graph — .github/workflows/snake.yml, pushed to the `output` branch -->
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/Janiyash/Janiyash/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Janiyash/Janiyash/output/snake.svg">
-  <img src="https://raw.githubusercontent.com/Janiyash/Janiyash/output/snake.svg" width="100%" alt="snake eating the contribution graph">
-</picture>
-
 </div>
 
 ---
