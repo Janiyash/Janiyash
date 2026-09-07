@@ -1,0 +1,13 @@
+{
+  "title": "Skill Radar",
+  "_comment": "Self-rated, 0-100. Edit these to match how you'd actually rate yourself.",
+  "axes": [
+    { "label": "JavaScript", "value": 75 },
+    { "label": "PHP",        "value": 78 },
+    { "label": "Node / API", "value": 70 },
+    { "label": "MySQL",      "value": 72 },
+    { "label": "Python",     "value": 65 },
+    { "label": "Java",       "value": 60 },
+    { "label": "Auth/Sec",   "value": 68 }
+  ]
+}

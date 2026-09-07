@@ -1,0 +1,17 @@
+{
+  "_comment": "Featured repos, in README order. Star/fork/language come live from the API on every run.",
+  "projects": [
+    {
+      "repo": "meterly-saas",
+      "description": "SaaS platform with secure authentication and subscription-based access. API key generation with usage tracking and an analytics dashboard."
+    },
+    {
+      "repo": "karma-services",
+      "description": "Service booking system with user management and request handling, plus automated email notifications for seamless communication."
+    },
+    {
+      "repo": "Art-gallery-Management-System-",
+      "description": "Platform to showcase artworks with user enquiry functionality and an admin panel for managing artworks and customer requests."
+    }
+  ]
+}
